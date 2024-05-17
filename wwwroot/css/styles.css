@@ -1,8 +1,53 @@
+/* Setting Up Desktop & Mobile Views*/
+@media screen and (min-width: 960px)
+{
 
+    body 
+    {
+        width: 70vw;
+    }
+
+    #header-banner
+    {
+        height: 25vh;
+        width: 70vw;
+    }
+
+    #logo-button img
+    {
+        width: 25%;
+        height: 25%;
+    }
+
+}
+@media screen and (max-width: 960px)
+{
+    body 
+    {
+        width: 100vw;
+    }
+
+    th
+    {
+        width: 10px;
+    }
+
+    #header-banner
+    {
+        height: 25vh;
+        width: 100vw;
+    }
+
+    #logo-button img
+    {
+        width: 40%;
+        height: 40%;
+    }
+}
 
 html
 {
-    background-color: steelblue;
+    background-color: lightgray;
 }
 
 body
