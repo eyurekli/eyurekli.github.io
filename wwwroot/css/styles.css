@@ -53,7 +53,161 @@ html
 body
 {
     margin: 0 auto;
-    font-family: "Gill Sans MT", Arial, sans-serif;
+    font-family: "Public Sans", Arial, sans-serif;
     background-color: white;
     height: auto;
 } 
+
+/*Header Styling*/
+#search-box
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#logo-button
+{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+#primary-nav
+{
+    border-bottom: 3px solid #004e97;
+    border-top: 3px solid #004e97;
+}
+
+#primary-nav ul
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0;
+}
+
+.hidden
+{
+    display: none;
+}
+
+#header-banner
+{
+    background-color: #595959;
+    background-image: url("../img/unbanner.jpg");
+    background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	background-size: cover; 
+}
+
+/* Main Content */
+#pg-main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+/*----Footer Styling!----*/
+#pg-footer
+{
+    background-color:#595959;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+#pg-footer a
+{
+    color: white;
+}
+
+ul
+{
+    list-style: none;
+}
+
+#footer-nav ul
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0;
+}
+
+#social-media
+{
+    display: flex;
+    gap: 20px;
+}
+
+
+/*---Styling Links---*/
+/* Inspired by Dal Brand Guidelines. https://www.dal.ca/about-dal/the-dal-brand.html, Accessed December 05, 2023.*/
+a:link,
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+#primary-nav a:hover,
+#primary-nav a:active {
+	text-decoration: underline;
+	background-color: #004e97;
+	color: white;
+}
+
+#footer-nav a:hover,
+#footer-nav a:active {
+	text-decoration: underline;
+	background-color: #004e97;
+	color: white;
+}
+
+#social-media a:hover,
+#social-media a:active {
+	text-decoration: underline;
+
+}
+
+/*-----------------------*/
+
+/* All table headers */
+th
+{
+    border-width: 1px;
+    border-color: #FCA902;
+    border-style: solid;
+    background-color: white;
+}
+
+th button
+{
+    width: 30px;
+    height: 30px;
+}
+th img
+{
+    width: 20px;
+    height: 20px;
+}
+/* All table cells */
+td
+{
+    border-width: 1px;
+    border-color: #595959;
+    border-style: solid;
+    background-color: white;
+}
